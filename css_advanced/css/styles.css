@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Spin-Cycle-OT';
+    src: url('../fonts/Spin-Cycle-OT.woff2') format('woff2'),
+         url('../fonts/Spin-Cycle-OT.woff') format('woff');
+    /* Add other formats if available */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Very important for layout */
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif; /* Set default font */
+    line-height: 1.6;
+    color: #333; /* Default text color */
+}
+/* Add other common resets like list-style: none; for ul/ol */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+/* Add Spin-Cycle-OT import here too if from Google Fonts */
+/* Or use @font-face for local Spin-Cycle-OT */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ... rest of your body styles and other CSS */
+
+/* Below your body styles, but above other custom styles */
+ul, ol {
+    list-style: none; /* Remove default list markers */
+}
+a {
+    text-decoration: none; /* Remove underlines from links */
+    color: inherit; /* Inherit color from parent by default or set a specific link color */
+}
+img {
+    max-width: 100%; /* Ensures images are responsive and don't overflow containers */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space below images */
+}

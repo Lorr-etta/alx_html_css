@@ -4,8 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Headphones</title>
-  <link rel="stylesheet" href="1-styles.css" />
+  <link rel="stylesheet" href="3-styles.css" />
   <link rel="stylesheet" href="icons/holberton_school-icon.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <!-- Header / Hero Section -->
@@ -14,9 +19,9 @@
       <nav class="nav">
         <img src="images/logo_headphones.png" alt="Headphones Logo" class="logo" />
         <ul class="nav-links">
-          <li><a href="#">what we do</a></li>
-          <li><a href="#">our results</a></li>
-          <li><a href="#">contact us</a></li>
+          <li><a href="#what-we-do">what we do</a></li>
+          <li><a href="#our-results">our results</a></li>
+          <li><a href="#contact-us">contact us</a></li>
         </ul>
       </nav>
 
@@ -32,7 +37,7 @@
   </header>
 
   <!-- What We Do Section -->
-  <section class="what-we-do">
+  <section id="what-we-do" class="what-we-do">
     <h2>What we do…</h2>
     <div class="icons">
       <div class="icon-item">
@@ -52,5 +57,3 @@
       </div>
     </div>
   </section>
-</body>
-</html>
